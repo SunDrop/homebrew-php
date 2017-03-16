@@ -211,7 +211,7 @@ INFO
       "--enable-zip",
       "--with-freetype-dir=#{Formula['freetype'].opt_prefix}",
       "--with-gd",
-      "--with-gettext=#{Formula['gettext'].opt_prefix}",
+#      "--with-gettext=#{Formula['gettext'].opt_prefix}",
       ("--with-iconv-dir=/usr" if OS.mac?),
       "--with-icu-dir=#{Formula['icu4c'].opt_prefix}",
       "--with-jpeg-dir=#{Formula['jpeg'].opt_prefix}",
