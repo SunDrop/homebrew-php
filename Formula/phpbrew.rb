@@ -17,7 +17,7 @@ class Phpbrew < AbstractPhpPhar
   end
 
   depends_on "curl"
-  depends_on "gettext"
+#  depends_on "gettext"
   depends_on "gmp"
   depends_on "jpeg"
   depends_on "libevent"
